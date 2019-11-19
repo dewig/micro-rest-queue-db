@@ -1,0 +1,16 @@
+---
+applications:
+- name: stat-persistence-service
+  routes:
+    - route: app124.cfapps.io/persitence
+
+  #buildpacks:
+  #  - java_buildpack
+
+  memory: 660M
+  instances: 1
+  path: target/stat-persistence-service-0.1.0.jar
+
+services:
+  - cloud-amqp
+  - clear-db

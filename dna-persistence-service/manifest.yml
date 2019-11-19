@@ -1,0 +1,16 @@
+---
+applications:
+- name: dna-persistence-service-2
+  routes:
+    - route: app124.cfapps.io/persitence
+
+  #buildpacks:
+  #  - java_buildpack
+
+  memory: 650M
+  instances: 1
+  path: target/dna-persistence-service-2-0.1.0.jar
+
+services:
+  - cloud-amqp
+  - clear-db

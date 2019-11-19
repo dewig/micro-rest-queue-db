@@ -1,0 +1,16 @@
+---
+applications:
+- name: checking-service
+  routes:
+    - route: app124.cfapps.io/mutant
+    - route: app124.cfapps.io/stats
+
+  #buildpacks:
+  #  - java_buildpack
+
+  memory: 650M
+  instances: 1
+  path: target/checking-service-0.1.0.jar
+
+services:
+  - cloud-amqp

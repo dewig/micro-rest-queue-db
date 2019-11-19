@@ -1,0 +1,4 @@
+{
+    "dna" : ["aaaaaaa", "ttttttt"],
+    "expected" : false
+}

@@ -1,0 +1,13 @@
+{
+    "dna" : [
+        "cgcgcgcg",
+        "atatatat",
+        "agcgcgcc",
+        "atatatac",
+        "agcgcgcc",
+        "atatatac",
+        "cgcgcgcg",
+        "atatatat"
+    ],
+    "expected" : true
+}
